@@ -1,0 +1,241 @@
+{
+  "name": "$t:wysiwyg_modern",
+  "version": "1.0.0",
+  "types": ["json"],
+  "icon": "format_quote",
+  "recommended": {
+    "length": 65534
+  },
+  "options": {
+    "placeholder": {
+      "name": "$t:placeholder",
+      "comment": "$t:placeholder_comment",
+      "interface": "text-input",
+      "length": 200
+    },
+    "buttons": {
+      "name": "$t:buttons",
+      "comment": "$t:buttons_comment",
+      "interface": "checkboxes",
+      "default": [
+        "bold",
+        "italic",
+        "code",
+        "color",
+        "anchor",
+        "quote",
+        "orderedlist",
+        "unorderedlist",
+        "h2",
+        "h3"
+      ],
+      "options": {
+        "wrap": false,
+        "choices": {
+          "bold": "$t:buttons_bold",
+          "italic": "$t:buttons_italic",
+          "code": "$t:buttons_code",
+          "color": "$t:buttons_color",
+          "anchor": "$t:buttons_anchor",
+          "quote": "$t:buttons_quote",
+          "orderedlist": "$t:buttons_orderedlist",
+          "unorderedlist": "$t:buttons_unorderedlist",
+          "h1": "$t:buttons_h1",
+          "h2": "$t:buttons_h2",
+          "h3": "$t:buttons_h3",
+          "h4": "$t:buttons_h4"
+        }
+      }
+    },
+    "character_mapping": {
+      "name": "$t:character_mapping",
+      "comment": "$t:character_mapping_comment",
+      "interface": "checkboxes",
+      "default": [
+        "blockquote",
+        "unordered_list_item_1",
+        "unordered_list_item_2",
+        "unordered_list_item_3",
+        "ordered_list_item",
+        "unstyled",
+        "code_block",
+        "header_one",
+        "header_two",
+        "header_three",
+        "header_four"
+      ],
+      "options": {
+        "wrap": false,
+        "choices": {
+          "blockquote": "$t:character_mapping_blockquote ('> ')",
+          "unordered_list_item_1": "$t:character_mapping_list_item ('*.')",
+          "unordered_list_item_2": "$t:character_mapping_list_item ('* ')",
+          "unordered_list_item_3": "$t:character_mapping_list_item ('- ')",
+          "ordered_list_item": "$t:character_mapping_ordered_list_item ('1.')",
+          "unstyled": "$t:character_mapping_unstyled ('==')",
+          "code_block": "$t:character_mapping_code_block ('` ')",
+          "header_one": "$t:character_mapping_header_one ('# ')",
+          "header_two": "$t:character_mapping_header_two ('#2')",
+          "header_three": "$t:character_mapping_header_three ('#3')",
+          "header_four": "$t:character_mapping_header_four ('#4')"
+        }
+      }
+    },
+    "upload_images": {
+      "name": "$t:upload_images",
+      "comment": "$t:upload_images_comment",
+      "interface": "toggle",
+      "type": "BOOLEAN",
+      "default": true
+    },
+    "existing_images": {
+      "name": "$t:existing_images",
+      "comment": "$t:existing_images_comment",
+      "interface": "toggle",
+      "type": "BOOLEAN",
+      "default": true
+    },
+    "custom_images_url": {
+      "name": "$t:custom_images_url",
+      "comment": "$t:custom_images_url_comment",
+      "interface": "text-input",
+      "default": null
+    },
+    "default_image_caption": {
+      "name": "$t:default_image_caption",
+      "comment": "$t:default_image_caption_comment",
+      "interface": "text-input",
+      "default": null
+    },
+    "video_embed": {
+      "name": "$t:video_embed",
+      "comment": "$t:video_embed_comment",
+      "interface": "toggle",
+      "type": "BOOLEAN",
+      "default": true
+    },
+    "video_embed_endpoint": {
+      "name": "$t:video_embed_endpoint",
+      "comment": "$t:video_embed_endpoint_comment",
+      "interface": "text-input",
+      "default": "//noembed.com/embed?url="
+    },
+    "video_embed_placeholder": {
+      "name": "$t:video_embed_placeholder",
+      "comment": "$t:video_embed_placeholder_comment",
+      "interface": "text-input",
+      "default": null
+    },
+    "video_embed_caption": {
+      "name": "$t:video_embed_caption",
+      "comment": "$t:video_embed_caption_comment",
+      "interface": "text-input",
+      "default": null
+    },
+    "embed": {
+      "name": "$t:embed",
+      "comment": "$t:embed_comment",
+      "interface": "toggle",
+      "type": "BOOLEAN",
+      "default": true
+    },
+    "embed_endpoint": {
+      "name": "$t:video_embed_endpoint",
+      "comment": "$t:video_embed_endpoint_comment",
+      "interface": "text-input",
+      "default": "//noembed.com/embed?url="
+    },
+    "embed_placeholder": {
+      "name": "$t:embed_placeholder",
+      "comment": "$t:embed_placeholder_comment",
+      "interface": "text-input",
+      "default": null
+    },
+    "divider": {
+      "name": "$t:divider",
+      "comment": "$t:divider_comment",
+      "interface": "toggle",
+      "type": "BOOLEAN",
+      "default": true
+    }
+  },
+  "translation": {
+    "en-US": {
+      "wysiwyg_modern": "WYSIWYG Modern",
+      "distraction_free_mode": "Distraction Free Mode",
+      "upload_image_error": "There was an error while trying to upload the image.",
+      "existing_image_error": "There was an error while trying to insert an existing image.",
+
+      "placeholder": "Placeholder",
+      "placeholder_comment": "Enter placeholder text",
+      "placeholder_default": "Write your story",
+
+      "buttons": "Buttons",
+      "buttons_comment": "Choose what buttons to use in the toolbar",
+      "buttons_bold": "Bold",
+      "buttons_italic": "Italic",
+      "buttons_code": "Code",
+      "buttons_color": "Color",
+      "buttons_anchor": "Link",
+      "buttons_quote": "Quote",
+      "buttons_orderedlist": "Ordered list",
+      "buttons_unorderedlist": "Unordered list",
+      "buttons_h1": "H1",
+      "buttons_h2": "H2",
+      "buttons_h3": "H3",
+      "buttons_h4": "H4",
+
+      "character_mapping": "Convert characters to blocks",
+      "character_mapping_comment": "Select which conversions to enable",
+      "character_mapping_blockquote": "Quote",
+      "character_mapping_list_item": "List item",
+      "character_mapping_ordered_list_item": "Ordered list item",
+      "character_mapping_unstyled": "Unstyled",
+      "character_mapping_code_block": "Code block",
+      "character_mapping_header_one": "H1",
+      "character_mapping_header_two": "H2",
+      "character_mapping_header_three": "H3",
+      "character_mapping_header_four": "H4",
+
+      "upload_images": "Image upload widget",
+      "upload_images_comment": "Turn on the inline widget for uploading images",
+
+      "existing_images": "Existing images widget",
+      "existing_images_comment": "Turn on the inline widget for inserting images from the library",
+
+      "custom_images_url": "URL base for images",
+      "custom_images_url_comment": "Optional custom URL base for images including last '/'",
+
+      "default_image_caption": "Default image caption",
+      "default_image_caption_comment": "Image caption shown to newly added images",
+      "default_image_caption_default": "type a caption (optional)",
+
+      "video_embed": "Video embed widget",
+      "video_embed_comment": "Turn on the inline widget for embedding videos from third-party services",
+
+      "video_embed_endpoint": "Video embed endpoint",
+      "video_embed_endpoint_comment": "Endpoint of the service used for embedding videos",
+
+      "video_embed_placeholder": "Video embed placeholder",
+      "video_embed_placeholder_comment": "Placeholder text for the input where the video URL is added",
+      "video_embed_placeholder_default": "Paste a YouTube, Vine, Vimeo, or other video link, and press Enter",
+
+      "video_embed_caption": "Video embed caption",
+      "video_embed_caption_comment": "Video caption shown to newly added videos",
+      "video_embed_caption_default": "Type caption for embed (optional)",
+
+      "embed": "Embed widget",
+      "embed_comment": "Turn on the inline widget for embedding snippets from third-party services",
+
+      "embed_endpoint": "Embed endpoint",
+      "embed_endpoint_comment": "Endpoint of the service used for embedding",
+
+      "embed_placeholder": "Embed placeholder",
+      "embed_placeholder_comment": "Placeholder text for the input where the embed URL is added",
+      "embed_placeholder_default": "Paste a link to embed content from another site (e.g. Twitter) and press Enter",
+
+      "divider": "Divider widget",
+      "divider_comment": "Turn on the inline widget for inserting content dividers"
+    }
+  }
+}
